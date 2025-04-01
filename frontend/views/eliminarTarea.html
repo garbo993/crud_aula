@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Tarea</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Eliminar Tarea</h1>
+        <p>Ingrese el ID de la tarea a eliminar:</p>
+        <form onsubmit="event.preventDefault(); eliminarTarea();" id="DeleteTareaForm">
+            <input type="text" id="tareaId" placeholder="ID de la tarea" required>
+            <button type="submit">Eliminar Tarea</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="../scripts/eliminarTarea.js"></script>
+</body>
+</html>

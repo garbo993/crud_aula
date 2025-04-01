@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <meta name =" viewport" content ="width = device-width, initial-scale = 1.0">
+    <title>Crear Tarea</title>
+    <link rel = "stylesheet" href = ../css/styles.css>
+
+</head>
+
+<body>
+    <div class = "container">
+        <form id = "crearTareaForm">
+            <label for= "titulo">Titulo:</label>
+            <input type ="text" id="titulo" required>
+
+            <label for= "descripcion">Descripcion:</label>
+            <input type ="text" id="descripcion">
+
+            <label for= "fechaLimite">fecha Limite:</label>
+            <input type ="date" id="fechaLimite" required>
+
+            <label for= "prioridad">Prioridad:</label>
+            <input type ="text" id="prioridad" required>
+
+            <button type = submit >Crear Tarea</button>
+        </form>
+    </div>
+    <script src ="../scripts/crearTarea.js"></script>
+</body>
+</html>
+
+
+
+
